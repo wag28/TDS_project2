@@ -36,7 +36,7 @@ class SearchResponse(BaseModel):
 # Proxy Configuration
 API_URL = "https://aiproxy.sanand.workers.dev/openai/v1/embeddings"
 # Replace with your AIPROXY_TOKEN
-AIPROXY_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjIwMDA2NTBAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.JOCyzpJvCCizpVY4B8PjpuwYGFztbF4FJedW8bUkgqk"
+AIPROXY_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjI0ZjIwMDE0MjhAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.miwX_jlciPpF-JECb3io61WGBfr8O24iNuZEPfLlXLA"
 
 def get_embeddings(texts: List[str]) -> List[List[float]]:
     """Get embeddings for a list of texts using the proxy API"""
